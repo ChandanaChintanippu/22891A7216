@@ -86,7 +86,12 @@ npm start
 - Custom short codes must be alphanumeric, underscores, or hyphens.
 - Expiry time in minutes is optional; leave blank for no expiry.
 - Logs are sent automatically to the API endpoint using logEvent middleware.
+## Screenshots
+### 1. Batch URL Input
+![Batch URL Input](Screenshots\Screenshot 2025-09-04 121215.png)
 
+### 2. Shortened URLs & Stats
+![Shortened URLs & Stats]("Screenshots\Screenshot 2025-09-04 121332.png")
 
 
 
