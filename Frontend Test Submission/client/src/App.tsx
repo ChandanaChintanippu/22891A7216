@@ -1,8 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import { logEvent } from './middleware/logger';
 function App() {
+  const handleClick = () => {
+    logEvent("info", "App Component", "User clicked the button");
+  };
   return (
     <div className="App">
       <header className="App-header">
@@ -18,9 +21,9 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={handleClick}>Click Me</button>
       </header>
     </div>
   );
 }
-
 export default App;

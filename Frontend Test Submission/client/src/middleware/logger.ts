@@ -10,7 +10,8 @@ const packages = [
   "auth",
   "config",
   "middleware",
-  "utils"
+  "utils",
+  "App Component"
 ];
 
 export async function logEvent(
@@ -36,7 +37,15 @@ export async function logEvent(
     });
 
     console.log("Log sent:", response.data);
-  } catch (error) {
-    console.error("Failed to send log:", error);
+  } catch (error: any) {
+    if (axios.isAxiosError(error)) {
+      console.error(
+        "Failed to send log:",
+        error.response?.status,
+        error.response?.data || error.message
+      );
+    } else {
+      console.error("Unexpected error:", error);
+    }
   }
 }
