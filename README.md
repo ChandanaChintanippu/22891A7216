@@ -66,10 +66,10 @@ cd "Frontend Test Submission/client"
 
 ## Screenshots
 ### 1. Batch URL Input
-![Batch URL Input](Screenshots\Screenshot 2025-09-04 121215.png)
+![Batch URL Input](./Screenshots/Screenshot 2025-09-04 121215.png)
 
 ### 2. Shortened URLs & Stats
-![Shortened URLs & Stats]("Screenshots\Screenshot 2025-09-04 121332.png")
+![Shortened URLs & Stats](./Screenshots/Screenshot 2025-09-04 121332.png)
 
 
 
