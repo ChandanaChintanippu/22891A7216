@@ -42,43 +42,20 @@ All major actions (URL shortening, clicks, expiry) are logged using a **logging 
 
 ## How to Run
 
-1. Navigate to the frontend directory:
+# 1. Navigate to the frontend directory:
 
-```bash
 cd "Frontend Test Submission/client"
-2. Install dependencies:
 
-```bash
-npm install
-3.Start the development server
-npm start
+# 2. Install dependencies:
 
-4.Open the app in your browser
-# Visit:http://localhost:3000
-```
+-npm install
 
-## Folder Structure
-22891A7216/
-├── Logging Middleware/
-│   └── logger.ts
-└── Frontend Test Submission/
-    └── client/
-        ├── src/
-        │   ├── components/
-        │   │   └── UrlShortener.tsx
-        │   └── middleware/
-        │       └── logger.ts
-        ├── package.json
-        └── ... other frontend files
-         ```
+# 3.Start the development server
 
----
-        
-## Assumptions
+-npm start
 
-- Frontend only; backend API for logging is already provided.
-- No user authentication implemented; token should be used if required.
-- Data is not persisted across sessions (in-memory state only).
+# 4.Open the app in your browser
+-Visit:http://localhost:3000
 
 ## Notes
 
@@ -86,6 +63,7 @@ npm start
 - Custom short codes must be alphanumeric, underscores, or hyphens.
 - Expiry time in minutes is optional; leave blank for no expiry.
 - Logs are sent automatically to the API endpoint using logEvent middleware.
+
 ## Screenshots
 ### 1. Batch URL Input
 ![Batch URL Input](Screenshots\Screenshot 2025-09-04 121215.png)
