@@ -1,9 +1,9 @@
 # Batch URL Shortener with Logging Middleware
 
 ## Overview
-This project is a **Batch URL Shortener** built using **React + TypeScript**.  
-It supports shortening **up to 5 URLs at once**, with optional expiry time and custom short codes.  
-All major actions (URL shortening, clicks, expiry) are logged using a **logging middleware** to the test server API.
+1.This project is a **Batch URL Shortener** built using **React + TypeScript**.  
+2.It supports shortening **up to 5 URLs at once**, with optional expiry time and custom short codes.  
+3.All major actions (URL shortening, clicks, expiry) are logged using a **logging middleware** to the test server API.
 
 ---
 
