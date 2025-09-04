@@ -44,18 +44,19 @@ All major actions (URL shortening, clicks, expiry) are logged using a **logging 
 
 1. Navigate to the frontend directory:
 
-- cd "Frontend Test Submission/client"
+-   cd "Frontend Test Submission/client"
 
 2. Install dependencies:
 
-- npm install
+-   npm install
 
-3.Start the development server
+3. Start the development server
 
-- npm start
+-   npm start
 
-4.Open the app in your browser
-- Visit:http://localhost:3000
+4. Open the app in your browser
+   
+-   Visit:http://localhost:3000
 
 ## Notes
 
