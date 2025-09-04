@@ -44,18 +44,18 @@ All major actions (URL shortening, clicks, expiry) are logged using a **logging 
 
 # 1. Navigate to the frontend directory:
 
-cd "Frontend Test Submission/client"
+- cd "Frontend Test Submission/client"
 
 # 2. Install dependencies:
 
--npm install
+- npm install
 
 # 3.Start the development server
 
--npm start
+- npm start
 
 # 4.Open the app in your browser
--Visit:http://localhost:3000
+- Visit:http://localhost:3000
 
 ## Notes
 
@@ -67,6 +67,7 @@ cd "Frontend Test Submission/client"
 ## Screenshots
 ### 1. Batch URL Input
 ![Batch URL Input](./Screenshots/Screenshot%202025-09-04%20121215.png)
+![Screenshot](./Screenshots/Screenshot%202025-09-04%20121244.png)
 ### 2. Shortened URLs & Stats
 ![Shortened URLs & Stats](./Screenshots/Screenshot%202025-09-04%20121332.png)
 
